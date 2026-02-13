@@ -1,0 +1,70 @@
+:root {
+  --accent: #8b0000;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: "Space Grotesk", sans-serif;
+
+  background-image: url("dance.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.top {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h1,
+h2 {
+  color: var(--accent);
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.schedule {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.schedule th,
+.schedule td {
+  border: 0.1rem solid #444;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.schedule thead th {
+  background-color: var(--accent);
+  color: white;
+}
+
+.schedule tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.schedule tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+}
